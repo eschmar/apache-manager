@@ -1,7 +1,7 @@
-# apache-manager
+# ApacheManager
 Simple menubar Apache manager written in Swift. This is the result of an evening trying out Swift.
 Clicking on the menu items will execute the corresponding shell commands *without* checking for errors or any other kind of validation.
-Since there is no easy way of asking for elevated privileges in Swift, I had to get along with the hacky NSAppleScript approach.
+Since there is no easy way of asking for elevated privileges in Swift, I had to get along with the hacky ``NSAppleScript`` approach.
 
 ![Screenshot of ApacheManager](https://raw.githubusercontent.com/eschmar/apache-manager/master/screenshot.png)
 

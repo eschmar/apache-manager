@@ -32,6 +32,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusItem.menu = ApacheMenu
     }
 
+    @IBAction func exitApp(sender: NSMenuItem) {
+        NSApplication.sharedApplication().terminate(self)
+    }
+    
     func applicationWillTerminate(aNotification: NSNotification) {
         // Insert code here to tear down your application
     }

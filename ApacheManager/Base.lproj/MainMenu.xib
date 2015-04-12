@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7531" systemVersion="14C2513" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7531"/>
     </dependencies>
@@ -31,6 +31,13 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <action selector="restartApacheAction:" target="Voe-Tx-rLC" id="VQq-fF-fhC"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="wSx-Uv-WFL"/>
+                <menuItem title="Quit" id="0LF-Fv-2Ee">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="exitApp:" target="Voe-Tx-rLC" id="Jc6-FF-aeg"/>
                     </connections>
                 </menuItem>
             </items>

@@ -21,20 +21,20 @@
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <menu id="MEb-9T-jUt">
             <items>
-                <menuItem title="Start Apache" id="bD5-Yl-1Bx" userLabel="Start Apache">
+                <menuItem title="Start Apache" keyEquivalent="s" id="bD5-Yl-1Bx" userLabel="Start Apache">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <action selector="toggleApacheAction:" target="Voe-Tx-rLC" id="yXd-Jt-NcN"/>
                     </connections>
                 </menuItem>
-                <menuItem title="Restart Apache" enabled="NO" id="Y9X-zd-tPW" userLabel="Restart Apache" colorLabel="IBBuiltInLabel-Blue">
+                <menuItem title="Restart Apache" enabled="NO" keyEquivalent="r" id="Y9X-zd-tPW" userLabel="Restart Apache" colorLabel="IBBuiltInLabel-Blue">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <action selector="restartApacheAction:" target="Voe-Tx-rLC" id="VQq-fF-fhC"/>
                     </connections>
                 </menuItem>
                 <menuItem isSeparatorItem="YES" id="wSx-Uv-WFL"/>
-                <menuItem title="Quit" id="0LF-Fv-2Ee">
+                <menuItem title="Quit" keyEquivalent="q" id="0LF-Fv-2Ee">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <action selector="exitApp:" target="Voe-Tx-rLC" id="Jc6-FF-aeg"/>

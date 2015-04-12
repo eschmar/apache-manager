@@ -39,32 +39,38 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationWillTerminate(aNotification: NSNotification) {
         // Insert code here to tear down your application
     }
-
-    @IBAction func testAction(sender: NSMenuItem) {
-        let task = NSTask()
-        task.launchPath = "/usr/sbin/apachectl"
-        task.launch()
-        task.waitUntilExit()
-    }
     
     @IBAction func toggleApacheAction(sender: NSMenuItem) {
+        let task = NSTask()
+        task.launchPath = "/usr/sbin/apachectl"
+        
         if (apacheIsRunning) {
             // sudo apachectl stop
             apacheIsRunning = false
             sender.title = "Start Apache"
             statusItem.image = invisibleIcon
+            
             restartMenuItem.enabled = false
+            task.arguments = ["stop"]
         }else {
             // sudo apachectl start
             apacheIsRunning = true
             sender.title = "Stop Apache"
             statusItem.image = visibleIcon
             restartMenuItem.enabled = true
+            
+            task.arguments = ["start"]
         }
+        
+        task.launch()
     }
     
     @IBAction func restartApacheAction(sender: NSMenuItem) {
         // sudo apachectl restart
+        let task = NSTask()
+        task.launchPath = "/usr/sbin/apachectl"
+        task.arguments = ["restart"]
+        task.launch()
         
         let sayTask = NSTask()
         sayTask.launchPath = "/usr/bin/say"

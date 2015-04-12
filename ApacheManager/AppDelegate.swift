@@ -46,36 +46,40 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         if (apacheIsRunning) {
             // sudo apachectl stop
+            if (!self.executeShellCommand("do shell script \"sudo apachectl stop\" with administrator privileges")) {
+                //return
+            }
+            
             apacheIsRunning = false
             sender.title = "Start Apache"
             statusItem.image = invisibleIcon
-            
             restartMenuItem.enabled = false
-            task.arguments = ["stop"]
         }else {
             // sudo apachectl start
+            if (!self.executeShellCommand("do shell script \"sudo apachectl start\" with administrator privileges")) {
+                //return
+            }
+            
             apacheIsRunning = true
             sender.title = "Stop Apache"
             statusItem.image = visibleIcon
             restartMenuItem.enabled = true
-            
-            task.arguments = ["start"]
         }
-        
-        task.launch()
     }
     
     @IBAction func restartApacheAction(sender: NSMenuItem) {
         // sudo apachectl restart
-        let task = NSTask()
-        task.launchPath = "/usr/sbin/apachectl"
-        task.arguments = ["restart"]
-        task.launch()
+        self.executeShellCommand("do shell script \"sudo apachectl restart\" with administrator privileges")
+    }
+    
+    func executeShellCommand(command: String) -> Bool {
+        let script = NSAppleScript(source: command)
+        var result = script?.executeAndReturnError(nil)
+        if (result != nil) {
+            return false
+        }
         
-        let sayTask = NSTask()
-        sayTask.launchPath = "/usr/bin/say"
-        sayTask.arguments = ["Restart all the things!"]
-        sayTask.launch()
+        return true
     }
 }
 

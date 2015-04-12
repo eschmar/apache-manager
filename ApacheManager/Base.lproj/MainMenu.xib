@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7531" systemVersion="14C2513" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7531"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="GzC-gU-4Uq"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="ApacheManager" customModuleProvider="target">
+            <connections>
+                <outlet property="ApacheMenu" destination="MEb-9T-jUt" id="loY-rx-8iZ"/>
+                <outlet property="restartMenuItem" destination="Y9X-zd-tPW" id="Fet-xE-EDK"/>
+                <outlet property="toggleMenuItem" destination="bD5-Yl-1Bx" id="bec-gc-2gR"/>
+            </connections>
+        </customObject>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <menu id="MEb-9T-jUt">
+            <items>
+                <menuItem title="Start Apache" id="bD5-Yl-1Bx" userLabel="Start Apache">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="toggleApacheAction:" target="Voe-Tx-rLC" id="yXd-Jt-NcN"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Restart Apache" enabled="NO" id="Y9X-zd-tPW" userLabel="Restart Apache" colorLabel="IBBuiltInLabel-Blue">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="restartApacheAction:" target="Voe-Tx-rLC" id="VQq-fF-fhC"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="205" y="301.5"/>
+        </menu>
+    </objects>
+</document>

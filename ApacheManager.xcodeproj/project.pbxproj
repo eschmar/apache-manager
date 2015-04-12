@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4936BFFE1AD9B4B20011D088 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4936BFFD1AD9B4B20011D088 /* AppDelegate.swift */; };
+		4936C0001AD9B4B20011D088 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4936BFFF1AD9B4B20011D088 /* Images.xcassets */; };
+		4936C0031AD9B4B20011D088 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4936C0011AD9B4B20011D088 /* MainMenu.xib */; };
+		4936C00F1AD9B4B30011D088 /* ApacheManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4936C00E1AD9B4B30011D088 /* ApacheManagerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4936C0091AD9B4B30011D088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4936BFF01AD9B4B20011D088 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4936BFF71AD9B4B20011D088;
+			remoteInfo = ApacheManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4936BFF81AD9B4B20011D088 /* ApacheManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApacheManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4936BFFC1AD9B4B20011D088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4936BFFD1AD9B4B20011D088 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4936BFFF1AD9B4B20011D088 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4936C0021AD9B4B20011D088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4936C0081AD9B4B30011D088 /* ApacheManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApacheManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4936C00D1AD9B4B30011D088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4936C00E1AD9B4B30011D088 /* ApacheManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApacheManagerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4936BFF51AD9B4B20011D088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4936C0051AD9B4B30011D088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4936BFEF1AD9B4B20011D088 = {
+			isa = PBXGroup;
+			children = (
+				4936BFFA1AD9B4B20011D088 /* ApacheManager */,
+				4936C00B1AD9B4B30011D088 /* ApacheManagerTests */,
+				4936BFF91AD9B4B20011D088 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4936BFF91AD9B4B20011D088 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4936BFF81AD9B4B20011D088 /* ApacheManager.app */,
+				4936C0081AD9B4B30011D088 /* ApacheManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4936BFFA1AD9B4B20011D088 /* ApacheManager */ = {
+			isa = PBXGroup;
+			children = (
+				4936BFFD1AD9B4B20011D088 /* AppDelegate.swift */,
+				4936BFFF1AD9B4B20011D088 /* Images.xcassets */,
+				4936C0011AD9B4B20011D088 /* MainMenu.xib */,
+				4936BFFB1AD9B4B20011D088 /* Supporting Files */,
+			);
+			path = ApacheManager;
+			sourceTree = "<group>";
+		};
+		4936BFFB1AD9B4B20011D088 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4936BFFC1AD9B4B20011D088 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4936C00B1AD9B4B30011D088 /* ApacheManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4936C00E1AD9B4B30011D088 /* ApacheManagerTests.swift */,
+				4936C00C1AD9B4B30011D088 /* Supporting Files */,
+			);
+			path = ApacheManagerTests;
+			sourceTree = "<group>";
+		};
+		4936C00C1AD9B4B30011D088 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4936C00D1AD9B4B30011D088 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4936BFF71AD9B4B20011D088 /* ApacheManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4936C0121AD9B4B30011D088 /* Build configuration list for PBXNativeTarget "ApacheManager" */;
+			buildPhases = (
+				4936BFF41AD9B4B20011D088 /* Sources */,
+				4936BFF51AD9B4B20011D088 /* Frameworks */,
+				4936BFF61AD9B4B20011D088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApacheManager;
+			productName = ApacheManager;
+			productReference = 4936BFF81AD9B4B20011D088 /* ApacheManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4936C0071AD9B4B30011D088 /* ApacheManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4936C0151AD9B4B30011D088 /* Build configuration list for PBXNativeTarget "ApacheManagerTests" */;
+			buildPhases = (
+				4936C0041AD9B4B30011D088 /* Sources */,
+				4936C0051AD9B4B30011D088 /* Frameworks */,
+				4936C0061AD9B4B30011D088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4936C00A1AD9B4B30011D088 /* PBXTargetDependency */,
+			);
+			name = ApacheManagerTests;
+			productName = ApacheManagerTests;
+			productReference = 4936C0081AD9B4B30011D088 /* ApacheManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4936BFF01AD9B4B20011D088 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Marcel Eschmann";
+				TargetAttributes = {
+					4936BFF71AD9B4B20011D088 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					4936C0071AD9B4B30011D088 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 4936BFF71AD9B4B20011D088;
+					};
+				};
+			};
+			buildConfigurationList = 4936BFF31AD9B4B20011D088 /* Build configuration list for PBXProject "ApacheManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4936BFEF1AD9B4B20011D088;
+			productRefGroup = 4936BFF91AD9B4B20011D088 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4936BFF71AD9B4B20011D088 /* ApacheManager */,
+				4936C0071AD9B4B30011D088 /* ApacheManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4936BFF61AD9B4B20011D088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4936C0001AD9B4B20011D088 /* Images.xcassets in Resources */,
+				4936C0031AD9B4B20011D088 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4936C0061AD9B4B30011D088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4936BFF41AD9B4B20011D088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4936BFFE1AD9B4B20011D088 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4936C0041AD9B4B30011D088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4936C00F1AD9B4B30011D088 /* ApacheManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4936C00A1AD9B4B30011D088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4936BFF71AD9B4B20011D088 /* ApacheManager */;
+			targetProxy = 4936C0091AD9B4B30011D088 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4936C0011AD9B4B20011D088 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4936C0021AD9B4B20011D088 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4936C0101AD9B4B30011D088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4936C0111AD9B4B30011D088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4936C0131AD9B4B30011D088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ApacheManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4936C0141AD9B4B30011D088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ApacheManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4936C0161AD9B4B30011D088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ApacheManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApacheManager.app/Contents/MacOS/ApacheManager";
+			};
+			name = Debug;
+		};
+		4936C0171AD9B4B30011D088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ApacheManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApacheManager.app/Contents/MacOS/ApacheManager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4936BFF31AD9B4B20011D088 /* Build configuration list for PBXProject "ApacheManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4936C0101AD9B4B30011D088 /* Debug */,
+				4936C0111AD9B4B30011D088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4936C0121AD9B4B30011D088 /* Build configuration list for PBXNativeTarget "ApacheManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4936C0131AD9B4B30011D088 /* Debug */,
+				4936C0141AD9B4B30011D088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4936C0151AD9B4B30011D088 /* Build configuration list for PBXNativeTarget "ApacheManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4936C0161AD9B4B30011D088 /* Debug */,
+				4936C0171AD9B4B30011D088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4936BFF01AD9B4B20011D088 /* Project object */;
+}

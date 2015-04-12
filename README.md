@@ -1,9 +1,12 @@
 # apache-manager
-Simple menubar apache manager written in Swift.
+Simple menubar Apache manager written in Swift. This is the result of an evening trying out Swift.
+Clicking on the menu items will execute the corresponding shell commands *without* checking for errors or any other kind of validation.
+Since there is no easy way of asking for elevated privileges in Swift, I had to get along with the hacky NSAppleScript approach.
 
-## work in progress
-This app doesn't do anything yet, it's just the base gui and a simple NSTask for testing.
-More coming soon.
+![Screenshot of ApacheManager](https://raw.githubusercontent.com/eschmar/apache-manager/master/screenshot.jpg)
 
 ## credits
-Icons are by google and found [here](https://github.com/google/material-design-icons).
+Icons are by Google and [can be found here](https://github.com/google/material-design-icons).
+
+## license
+MIT License. Check [Google Material Design Icons](https://github.com/google/material-design-icons) for its licensing.
